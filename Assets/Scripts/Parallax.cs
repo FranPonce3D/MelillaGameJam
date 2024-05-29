@@ -1,36 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Parallax : MonoBehaviour
-{
+public class Parallex : MonoBehaviour {
 
-    public float depth = 1;
-
-    Player player;
+	[SerializeField] private Vector2 velocidadMovimiento;
+	private Vector2 offset;
+	private Material material;
 
     private void Awake()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
+        material = GetComponent<SpriteRenderer>().material;
+
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        float realVelocity = player.velocity.x / depth;
-        Vector2 pos = transform.position;
-
-        pos.x -= realVelocity * Time.fixedDeltaTime;
-
-        if (pos.x <= -25)
-            pos.x = 80;
-
-        transform.position = pos;
+        offset = velocidadMovimiento * Time.deltaTime;
+        material.mainTextureOffset += offset;
     }
 }

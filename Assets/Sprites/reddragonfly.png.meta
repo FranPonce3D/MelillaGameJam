@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: reddragonfly_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ad242740d0fe14eaaf66aed376b47c
+      internalID: 1198779627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 483
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250617b4b7eb2d049bfb74cb9a656564
+      internalID: 1321918077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 483
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9d10e6da5a28245a269c0a2b351ca0
+      internalID: 1103257221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 483
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d1be63861e5784cad2d70aca5f94ed
+      internalID: -1055193859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48f21b422f60c948ba13d21382c13dc
+      internalID: -1643106353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 322
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9321d0690352734458bdd468519c0adb
+      internalID: -276927919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 322
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab134c24190db5947bcfd364cf620226
+      internalID: -1946818804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_7
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 322
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5b0e3f7890b9c45a0be61181a42bb5
+      internalID: 555717473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0c4a8bc74dc30448b2a0c5736f265d
+      internalID: -572953553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 161
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a8969a26b095b4fa59bb2301f7441c
+      internalID: 1471211037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 161
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6454e4e081381f0409ffd20dd220b769
+      internalID: 847683739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_11
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 161
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96599e97065bbcb43861f1e571bb6dae
+      internalID: -1275509091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7b68703dd6eaa4c91e82969265232c
+      internalID: 798456425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d217cf755cae27044943e575d1a280bf
+      internalID: -1025865611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_14
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 0
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb60517df875d54f83b4473c400a645
+      internalID: -2001573636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reddragonfly_15
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 0
+        width: 205
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6087f4ce1d9a6f4d880aed7fe43be25
+      internalID: -1922219870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +442,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      reddragonfly_0: 1198779627
+      reddragonfly_1: 1321918077
+      reddragonfly_10: 847683739
+      reddragonfly_11: -1275509091
+      reddragonfly_12: 798456425
+      reddragonfly_13: -1025865611
+      reddragonfly_14: -2001573636
+      reddragonfly_15: -1922219870
+      reddragonfly_2: 1103257221
+      reddragonfly_3: -1055193859
+      reddragonfly_4: -1643106353
+      reddragonfly_5: -276927919
+      reddragonfly_6: -1946818804
+      reddragonfly_7: 555717473
+      reddragonfly_8: -572953553
+      reddragonfly_9: 1471211037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
