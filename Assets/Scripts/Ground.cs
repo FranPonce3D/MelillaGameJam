@@ -32,7 +32,7 @@ public class Ground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        groundHeight = transform.position.y + (collider.size.y / 2);
+        groundHeight = transform.position.y + (collider.size.y /2 ); //Lo he cambiado
     }
 
     private void FixedUpdate()
