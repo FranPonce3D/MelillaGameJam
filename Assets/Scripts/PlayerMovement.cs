@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float groundDistance = 0.25f;
     [SerializeField] private float jumpTime = 0.3f;
     [SerializeField] private float crouchHeight = 2f;
+    [SerializeField] private AudioClip jumpAudio;
+    [SerializeField] private AudioSource audioPersonaje;
 
     public bool isGrounded = false;
     private bool isJumping = false;
@@ -29,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = true;
             rb.velocity = Vector2.up * jumpForce;
+            audioPersonaje.PlayOneShot(jumpAudio);
         }
 
         if (isJumping && Input.GetButton("Jump"))
@@ -36,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
             if (jumpTimer < jumpTime)
             {
                 rb.velocity = Vector2.up * jumpForce;
-
+                
                 jumpTimer += Time.deltaTime;
             }
             else
