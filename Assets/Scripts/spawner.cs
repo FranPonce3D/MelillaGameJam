@@ -10,17 +10,11 @@ public class spawner : MonoBehaviour {
 
     private float timeUntilObstacleSpawn ;
 
-    public GameObject startBlock;
-    private Rigidbody2D startMovement;
 
-    private void Start()
-    {
-        startMovement.GetComponent<Rigidbody2D>();
-    }
+
 
     private void Update()  {
         SpawnLoop() ;
-        MoveStart();
     }
 
     private void SpawnLoop() {
@@ -43,11 +37,7 @@ public class spawner : MonoBehaviour {
         obstacleRB.velocity = Vector2.left * obstacleSpeed;
     }
 
-    private void MoveStart()
-    {
-        
-        startMovement.velocity = Vector2.left * obstacleSpeed;
-    }
+
 
 }
 
