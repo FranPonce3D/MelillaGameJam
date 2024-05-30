@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class UIControllerTitle : MonoBehaviour
 {
+
+    public string nombreEscena;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,6 @@ public class UIControllerTitle : MonoBehaviour
 
     public void play()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(nombreEscena);
     }
 }

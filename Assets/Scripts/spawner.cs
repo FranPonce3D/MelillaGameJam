@@ -8,13 +8,19 @@ public class spawner : MonoBehaviour {
     public float obstacleSpawnTime = 2f ;
     public float obstacleSpeed = 1f;
 
-    private float timeUntilObstacleSpawn ;
+    private float timeUntilObstacleSpawn;
+
+    public Rigidbody2D playerRB;
 
 
-
+    private void Start()
+    {
+        Spawn();
+    }
 
     private void Update()  {
         SpawnLoop() ;
+        playerRB.velocity = Vector2.left * obstacleSpeed;
     }
 
     private void SpawnLoop() {
@@ -36,6 +42,14 @@ public class spawner : MonoBehaviour {
         Rigidbody2D obstacleRB = spawnedObstacle.GetComponent<Rigidbody2D>();
         obstacleRB.velocity = Vector2.left * obstacleSpeed;
     }
+
+    /*private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "ground")
+        {
+            Spawn();
+        }
+    }*/
 
 
 
