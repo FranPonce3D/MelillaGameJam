@@ -19,7 +19,7 @@ using UnityEngine;
 	public bool isPlaying =false;
 	private void Update(){
 		if (isPlaying){
-			currentScore+=Time.deltaTime;
+			currentScore += Time.deltaTime;
 		}
 	}
 	
