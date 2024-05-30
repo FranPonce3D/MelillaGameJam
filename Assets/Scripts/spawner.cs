@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class spawner : MonoBehaviour {
+
     [SerializeField] private GameObject[] obstaclePrefabs ;
     public float obstacleSpawnTime = 2f ;
     public float obstacleSpeed = 1f;
@@ -23,8 +24,7 @@ public class spawner : MonoBehaviour {
 
     }
 
-    private void Spawn()
-    {
+    private void Spawn() {
         GameObject obstacleToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
 
         GameObject spawnedObstacle = Instantiate(obstacleToSpawn, transform.position, Quaternion.identity);
