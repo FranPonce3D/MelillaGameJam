@@ -10,6 +10,9 @@ public class spawner : MonoBehaviour {
 
     private float timeUntilObstacleSpawn ;
 
+
+
+
     private void Update()  {
         SpawnLoop() ;
     }
@@ -20,6 +23,7 @@ public class spawner : MonoBehaviour {
         if(timeUntilObstacleSpawn >= obstacleSpawnTime) {
             Spawn() ;
             timeUntilObstacleSpawn = 0f ;
+            
         }
 
     }
@@ -32,6 +36,8 @@ public class spawner : MonoBehaviour {
         Rigidbody2D obstacleRB = spawnedObstacle.GetComponent<Rigidbody2D>();
         obstacleRB.velocity = Vector2.left * obstacleSpeed;
     }
+
+
 
 }
 
